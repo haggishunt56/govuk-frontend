@@ -37,6 +37,8 @@ You should add an example to the review app if the existing examples do not refl
 
 If you've created a new component, create a new `src/govuk/<COMPONENT>/<COMPONENT>.yaml` file instead, where `<COMPONENT>` is the name of the component you've created.
 
+Use `hidden: true` in an example if you want to include the example in our [test fixtures](http://frontend.design-system.service.gov.uk/testing-your-html/) but not the review app.
+
 ## 3. Test in supported browsers and assistive technology
 
 You should test that your contribution works:
